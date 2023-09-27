@@ -1,0 +1,9 @@
+#home{
+    display: flex;
+    height: 40%;
+    width: 100%;
+   
+    background-color: orange;
+    top:30px;
+    /* padding: 0px; */
+}

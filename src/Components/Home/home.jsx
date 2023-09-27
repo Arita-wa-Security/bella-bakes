@@ -1,9 +1,13 @@
-import react from 'react'
+// import react from 'react'
+import "../Home/home.css"
 
 export default function Home(){
 
-    return(
-        <>
-        </>
-    )
+    return (
+      <>
+        <div className="container-fluid" id="home">
+            ...
+        </div>
+      </>
+    );
 }

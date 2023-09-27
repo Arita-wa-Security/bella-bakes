@@ -1,6 +1,10 @@
+import ReactDOM from "react-dom/client"
+import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
+import Navbar from "./Components/Navbar/Navbar"
+import Home from  "./Components/Home/home"
 import './App.css'
 
 function App() {
@@ -8,7 +12,13 @@ function App() {
 
   return (
     <>
-      <div>
+      <Navbar />
+      <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />}/>
+      </Routes>
+      </BrowserRouter>
+      {/* <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
@@ -27,7 +37,7 @@ function App() {
       </div>
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
-      </p>
+      </p> */}
     </>
   )
 }
