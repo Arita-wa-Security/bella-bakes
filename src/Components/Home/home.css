@@ -19,7 +19,28 @@
 
 img{
     height: max-content;
-    width: 110%
+    width: 100%
+}
+
+#propaganda{
+ display: flex;
+ justify-content: space-around;
+}
+
+#write-up{
+  width: 20%;
+  margin-top: 10%;
+}
+#veg-cookie{
+  width: 40%;
+  margin-top: 7%;
+  transition: width 1000ms;
+  transition-timing-function: ease-in-out;
+}
+
+#veg-cookie:hover{
+  width: 50%;
+  
 }
 
 .waviy {
