@@ -43,6 +43,59 @@ img{
   
 }
 
+#contact-form{
+  height: max-content;
+  background-color: bisque;
+  
+
+}
+
+.container {
+  display: block;
+  width: 99%;
+  background-color: black;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#well {
+  display: block;
+  background-color: aqua;
+  width: 99%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row {
+  display: block;
+  width: 99%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#colll { 
+  width: 99%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+} 
+
+#well form{
+  display: block;
+  width: 99%;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+  #well form fieldset{
+      display: block;
+      width: 99%;
+      margin-left: auto;
+      margin-right: auto;
+      
+      background-color: blue;
+  }
+
 .waviy {
     background-color: aquamarine;
     position: relative;

@@ -53,8 +53,8 @@ function Home() {
         <div id="contact-form">
           <div className="container">
             <div className="row">
-              <div className="col-md-6 col-md-offset-3">
-                <div className="well well-sm">
+              <div className="col-md-6 col-md-offset-3" id="colll">
+                <div className="well well-sm" id="well">
                   <form className="form-horizontal" action="" method="post">
                     <fieldset>
                       <legend className="text-center">Contact us</legend>
