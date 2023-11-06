@@ -2,6 +2,7 @@
 import "../Home/home.css"
 import Cake from "../assets/vegan-bread.png"
 import Cookies from "../assets/cookies.jpg"
+import Footer from "./footer";
 
 function Home() {
 
@@ -118,6 +119,7 @@ function Home() {
             </div>
           </div>
         </div>
+        <Footer />
       </>
     );
 }
