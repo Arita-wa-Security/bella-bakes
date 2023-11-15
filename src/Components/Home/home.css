@@ -1,11 +1,9 @@
 #home{
     display: flex;
-    /* padding: 2%; */
     width: 100%;
-    justify-content: space-between;
+    justify-content: space-evenly;
     background-color: orange;
     top:30px;
-    /* padding: 0px; */
     font-family: 'Poppins', sans-serif;
 }
 
@@ -14,13 +12,13 @@
 }
 
 #veg-cake{
-       width: 70%;
+       width: 50%;
+       height: 60vh;
+       /* background-color: black; */
+       padding-top: 10%;
+       float: left;
 }
 
-img{
-    height: max-content;
-    width: 100%
-}
 
 #propaganda{
  display: flex;
@@ -32,7 +30,7 @@ img{
   margin-top: 10%;
 }
 #veg-cookie{
-  width: 40%;
+  width: 30%;
   margin-top: 7%;
   transition: width 1000ms;
   transition-timing-function: ease-in-out;
