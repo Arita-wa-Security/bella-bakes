@@ -1,5 +1,5 @@
 import "../Home/footer.css"
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 function Footer(){
 
     return (
@@ -46,16 +46,20 @@ function Footer(){
               </div>
               <div class="col item social">
                 <a href="#">
-                  <i class="icon ion-social-facebook"></i>
+                  {/* <i class="icon ion-social-facebook"></i> */}
+                  <FontAwesomeIcon icon="fa-solid fa-cart-shopping" />
                 </a>
                 <a href="#">
-                  <i class="icon ion-social-twitter"></i>
+                  {/* <i class="icon ion-social-twitter"></i> */}
+                  <FontAwesomeIcon icon="fa-solid fa-cart-shopping" />
                 </a>
                 <a href="#">
-                  <i class="icon ion-social-snapchat"></i>
+                  {/* <i class="icon ion-social-snapchat"></i> */}
+                  <FontAwesomeIcon icon="fa-solid fa-cart-shopping" />
                 </a>
                 <a href="#">
-                  <i class="icon ion-social-instagram"></i>
+                  {/* <i class="icon ion-social-instagram"></i> */}
+                  <FontAwesomeIcon icon="fa-solid fa-cart-shopping" />
                 </a>
               </div>
             </div>
