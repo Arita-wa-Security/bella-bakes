@@ -1,5 +1,6 @@
 import react from 'react';
 import "../Navbar/Navbar.css"
+import {NavLink} from "react-router-dom"
 
 export default function Navbar(){
     return (
@@ -23,29 +24,17 @@ export default function Navbar(){
             <div className="collapse navbar-collapse" id="navbarNav">
               <ul className="navbar-nav">
                 <li className="nav-item">
-                  <a className="nav-link active" aria-current="page" href="#">
-                    Home
-                  </a>
+                 
+                  <NavLink to="/">Home</NavLink>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link active" href="#">
-                    About
-                  </a>
+                     <NavLink  to="/about">About</NavLink>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link active" href="#">
-                    Pricing
-                  </a>
+                <NavLink  to="/about">Find Us</NavLink>
                 </li>
                 <li className="nav-item">
-                  <a
-                    className="nav-link active"
-                    href="#"
-                    tabindex="-1"
-                    aria-disabled="true"
-                  >
-                    Find Us
-                  </a>
+                <NavLink  to="/about">About</NavLink>
                 </li>
               </ul>
             </div>
