@@ -36,7 +36,7 @@ function Footer(){
                 </ul>
               </div>
               <div class="col-md-6 item text">
-                <h3>Company Name</h3>
+                <h3>Bella Bakes</h3>
                 <p>
                   Praesent sed lobortis mi. Suspendisse vel placerat ligula.
                   Vivamus ac sem lacus. Ut vehicula rhoncus elementum. Etiam
@@ -47,20 +47,17 @@ function Footer(){
               <div class="col item social">
                 <a href="#">
                   {/* <i class="icon ion-social-facebook"></i> */}
-                  <FontAwesomeIcon icon="fa-solid fa-cart-shopping" />
+                  <FontAwesomeIcon icon={['fab', 'facebook']}/>
                 </a>
                 <a href="#">
                   {/* <i class="icon ion-social-twitter"></i> */}
-                  <FontAwesomeIcon icon="fa-solid fa-cart-shopping" />
+                  <FontAwesomeIcon icon={['fab', 'youtube']}/>
                 </a>
                 <a href="#">
                   {/* <i class="icon ion-social-snapchat"></i> */}
-                  <FontAwesomeIcon icon="fa-solid fa-cart-shopping" />
+                  <FontAwesomeIcon icon={['fab', 'whatsapp']} />
                 </a>
-                <a href="#">
-                  {/* <i class="icon ion-social-instagram"></i> */}
-                  <FontAwesomeIcon icon="fa-solid fa-cart-shopping" />
-                </a>
+               
               </div>
             </div>
             <p class="copyright">Company Name © 2018</p>
